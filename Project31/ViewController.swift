@@ -112,8 +112,7 @@ class ViewController: UIViewController, UITextFieldDelegate, UIGestureRecognizer
         if traitCollection.horizontalSizeClass == .compact {
             stackView.axis = .vertical
         } else {
-            stack
-            View.axis = .horizontal
+            stackView.axis = .horizontal
         }
     }
     
